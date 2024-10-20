@@ -1,0 +1,60 @@
+ 
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header__bacground-image{
+    background-image: url(/assets/images/background.png);
+}
+.header__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px 50px 50px;
+}
+.header__btn{
+    background-color: #5222D0;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+.header__item-main{
+    display: flex;
+    justify-content: space-between;
+}
+.header__bacground-image{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.header__btn__buy{
+    display: flex;
+    gap:10px;
+    background-color: #5222D0;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.header__item-blok{
+    margin-left: 50px;
+}
+.header__text{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200; 
+}
+.header__nav__item-nav{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    list-style-type: none;
+    color: #5222D0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}

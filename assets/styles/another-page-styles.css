@@ -1,0 +1,89 @@
+body{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header__h1-title{
+    margin-left: 50px;
+}
+.header__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px 50px 50px;
+}
+.header__btn{
+    background-color: #5222D0;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+.header__item-main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.header__item-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__item-cards__card{
+    display: flex;
+
+}
+.header__item-cards__card{
+    display: flex;
+    flex-direction: column;
+}
+.header__item-cards__card-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200; 
+}
+.header__item-cards__text{
+    display: flex;
+    gap:30px;
+    margin: 0px 50px 10px 50px;;
+}
+.header__item-cards__text__card-text{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.header__item-cards__text__form-wrap{
+    width: 100%;
+    background-color: #EC615B;
+    padding-right: 10px;
+
+}
+.header__item-cards__text__form-wrap__form-btn-text{
+    background-color: #5222D0;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    margin: 20px;
+}
+.header__item-cards__text__form-wrap__form-email{
+    margin: 20px;
+}
+.header__item-cards__text__form-wrap__form-h2{
+    margin-left: 20px;
+}
+.header__nav__item-nav{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    list-style-type: none;
+    color: #5222D0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
